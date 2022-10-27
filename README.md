@@ -1,6 +1,6 @@
-# Graph Mixup via Augmenting Data (GraphMAD): Graph Mixup for Data Augmentation using Data-Driven Convex Clustering.
+# Graph Mixup for Augmenting Data (GraphMAD): Graph Mixup for Data Augmentation using Data-Driven Convex Clustering.
 
-This code implements Graph Mixup via Augmenting Data (GraphMAD), a data-driven nonlinear mixup method for generating new labeled samples from existing labeled graph data to improve graph classification performance.
+This code implements Graph Mixup for Augmenting Data (GraphMAD), a data-driven nonlinear mixup method for generating new labeled samples from existing labeled graph data to improve graph classification performance.
 Mixup of graph data is challenging due to the irregular and non-Euclidean nature of graphs.
 Hence, we project the graphs onto a common latent feature space and explore linear and nonlinear mixup strategies in this latent space.
 In this work (i) we present nonlinear graph mixup in an interpretable continuous domain given by graphons, random graph models that can represent families of graphs sharing similar structural characteristics, (ii) we apply convex clustering via robust CARP [2,3] to efficiently and accurately learn data-driven mixup functions, where generated samples exploit relationships among all graphs as opposed to pairs of data, and (iii) we compare applying different mixup functions for data samples and their labels. Our work submitted to ICASSP 2023 explores datasets for which this is beneficial.
